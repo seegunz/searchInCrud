@@ -15,8 +15,6 @@ export default function App() {
     return prev.toLowerCase().includes(query.toLocaleLowerCase())
   })
 
-  console.log(list);
-
   return (
     <div>
       <h1>Search Box</h1>
